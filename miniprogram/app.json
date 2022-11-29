@@ -2,17 +2,8 @@
   "pages": [
     "pages/MainPage/index",
     "pages/MainPageDetail/index",
-    "pages/Mission/index",
-    "pages/MissionAdd/index",
-    "pages/MissionDetail/index",
     "pages/Note/index",
-    "pages/NoteAdd/index",
-    "pages/NoteDetail/index",
-    "pages/Market/index",
-    "pages/MarketAdd/index",
-    "pages/MarketDetail/index",
-    "pages/Account/index",
-    "pages/ItemDetail/index"
+    "pages/Shop/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -28,28 +19,20 @@
       "pagePath": "pages/MainPage/index",
       "selectedIconPath": "images/TabBar/home_selected.png",
       "iconPath": "images/TabBar/home.png",
-      "text": "首页"
-    }, {
-      "pagePath": "pages/Mission/index",
-      "selectedIconPath": "images/TabBar/job_selected.png",
-      "iconPath": "images/TabBar/job.png",
-      "text": "任务"
-    },{
+      "text": "Home"
+    }, 
+    {
       "pagePath": "pages/Note/index",
       "selectedIconPath": "images/TabBar/Note_selected.png",
       "iconPath": "images/TabBar/Note.png",
-      "text": "笔记"
+      "text": "Letter"
     }, {
-      "pagePath": "pages/Market/index",
+      "pagePath": "pages/Shop/index",
       "selectedIconPath": "images/TabBar/mall_selected.png",
       "iconPath": "images/TabBar/mall.png",
-      "text": "商城"
-    },{
-      "pagePath": "pages/Account/index",
-      "selectedIconPath": "images/TabBar/store_selected.png",
-      "iconPath": "images/TabBar/store.png",
-      "text": "仓库"
-    }]
+      "text": "Gift"
+    }
+]
   },
   "lazyCodeLoading": "requiredComponents",
   "cloud": true,

@@ -1,0 +1,112 @@
+<wxs module="util" src="../util.wxs" />
+
+<view class="container bg">
+    <view class=" w100 ">
+        <view class="header flex mb-14 pd-7 bg-white">
+            <view class="w30 txt-center">
+                未使用
+            </view>
+            <view class="w30 txt-center">
+                已使用
+            </view>
+            <view class="w30 txt-center">
+                已过期
+            </view>
+        </view>
+        <view class="content bg-white">
+            <view class="card flex">
+                <view class="card-side"></view>
+                <view class="card-content flex">
+                    <view class="card-title"> 
+                        <view class="card-title_main">
+                            <image src="./Images/money.png" /> 
+                            <view>
+                                ∞
+                            </view>
+                        </view>
+                        <view class="card-title_footer mt-28">
+                            无门槛
+                        </view>
+                    </view>
+                    <view class="card-dot"></view>
+                    <view class="card-content_main">
+                        <view class="card-content_main-title">
+                            生日礼物兑换券
+                        </view>
+                        <view class="card-content_main-date mt-7">
+                            仅供rabbit一人使用
+                        </view>
+                        <view class="card-content_main-date mt-21">
+                            2022.11.28-2023-11.28
+                        </view>
+                    </view>
+                    <view class="btn-red">立即使用</view>
+
+                </view>
+            </view>
+            <view class="card flex">
+                <view class="card-side"></view>
+                <view class="card-content flex">
+                    <view class="card-title"> 
+                        <view class="card-title_main">
+                            <image src="./Images/money.png" /> 
+                            <view>
+                                ∞
+                            </view>
+                        </view>
+                        <view class="card-title_footer mt-28">
+                            仅限休息日
+                        </view>
+                    </view>
+                    <view class="card-dot"></view>
+                    <view class="card-content_main">
+                        <view class="card-content_main-title">
+                            一直不停券
+                        </view>
+                        <view class="card-content_main-date mt-7">
+                            请提前一天预约
+                            <view>
+                                另：自备小毯子
+                            </view>
+                        </view>
+                        <view class="card-content_main-date mt-7">
+                            2022.11.28-2023-11.28
+                        </view>
+                    </view>
+                    <view class="btn-red">立即使用</view>
+
+                </view>
+            </view>
+            <view class="card flex">
+                <view class="card-side"></view>
+                <view class="card-content flex">
+                    <view class="card-title"> 
+                        <view class="card-title_main">
+                            <image src="./Images/money.png" /> 
+                            <view>
+                                ∞
+                            </view>
+                        </view>
+                        <view class="card-title_footer mt-28">
+                            看心情解锁
+                        </view>
+                    </view>
+                    <view class="card-dot"></view>
+                    <view class="card-content_main">
+                        <view class="card-content_main-title">
+                            隐藏技能兑换券
+                        </view>
+                        <view class="card-content_main-date mt-7">
+                            可解锁一个perper新技能
+                        </view>
+                        <view class="card-content_main-date mt-21">
+                            2022.11.28-2023-11.28
+                        </view>
+                    </view>
+                    <view class="btn-red">立即使用</view>
+
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

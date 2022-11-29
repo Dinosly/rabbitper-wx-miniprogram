@@ -78,3 +78,18 @@
   
   /* top: 0; */
 }
+
+.bg-white{
+    background-color: #ffffff;
+    transform: scale(1.25);
+}
+
+.txt-center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.f600{
+    font-weight: 600;
+    font-size: 14px;
+}

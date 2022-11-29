@@ -23,6 +23,17 @@ Page({
     ],
   },
 
+  toPreview(event){
+      
+    // var src = event.currentTarget.dataset.src;//获取data-src
+    // var imgList = event.currentTarget.dataset.list;//获取data-list
+    //图片预览
+    wx.previewImage({
+        current: "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fupload.pig66.com%2Ftoutiao%2F1952035-468bef1e720c1056d3454db7260a64d3%3Fx-oss-process%3Dimage%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fauto-orient%2C1%2Fquality%2CQ_90&refer=http%3A%2F%2Fupload.pig66.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672147552&t=4b1d9ed1ec7713a24d719c6dc55fe020", // 当前显示图片的http链接
+        urls: ["https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fupload.pig66.com%2Ftoutiao%2F1952035-468bef1e720c1056d3454db7260a64d3%3Fx-oss-process%3Dimage%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fauto-orient%2C1%2Fquality%2CQ_90&refer=http%3A%2F%2Fupload.pig66.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1672147552&t=4b1d9ed1ec7713a24d719c6dc55fe020"] // 需要预览的图片http链接列表
+    })
+  },
+
   //页面加载时运行
   async onShow(){
     // 首先查看云端List中的笔记，据此显示内容

@@ -8,14 +8,14 @@ App({
       _openidB: '',
 
       //记录使用者的名字
-      userA: '男孩',
-      userB: '女孩',
+      userA: 'per',
+      userB: 'rabbit',
 
-      date: '2022/05/22 00:00:00',
-      birthdayA: '2000/01/01 00:00:00',
-      birthdayB: '2000/01/01 00:00:00',       // 新历出生
-      birthdayA_next: '2023/01/01 00:00:00',  
-      birthdayB_next: '2023/01/01 00:00:00',  // 每年生日
+      date: '2022/08/01 00:00:00',
+      birthdayA: '1996/07/11 00:00:00',
+      birthdayB: '1994/11/28 00:00:00',       // 新历出生
+      birthdayA_next: '2023/07/11 00:00:00',  
+      birthdayB_next: '2023/11/28 00:00:00',  // 每年生日
 
       //用于存储待办记录的集合名称
       collectionMissionList: 'MissionList',
